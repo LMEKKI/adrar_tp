@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apprigator</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-300">
+    <div class="container w-6/12 mx-auto h-dvh mt-10 sm: w-auto">
+      <div class="card p-5 w-10/12 bg-slate-200 rounded-xl sm: w-11/12">
+        <div class="card-img mb-16 relative">
+          <img src="/public/images/login.jpg" class="rounded-md sm:" alt="" />
+          <div class="absolute -bottom-12 start-3 text-nowrap">
+            <img src="/public/images/user.png" alt="" class="sm: w-16" />
+            <p
+              class="text-black font-semibold absolute bottom-3 start-32 sm: start-20"
+            >
+              Welcome back , <span class="text-red-500">Robert</span>
+            </p>
+          </div>
+        </div>
+        <form>
+          <div class="grid gap-6 mb-6">
+            <div>
+              <label class="font-medium" for="email">Email</label>
+              <input
+                type="text"
+                id="first_name"
+                class="bg-white text-black text-md rounded-lg block w-full p-2.5"
+                placeholder="Robert.langester@gmail.com"
+                required
+              />
+            </div>
+            <div>
+              <label class="font-medium" for="email">Password</label>
+
+              <input
+                type="text"
+                id="password"
+                class="bg-white text-black text-md rounded-lg block w-full p-2.5"
+                placeholder="*********"
+                required
+              />
+            </div>
+          </div>
+        </form>
+        <div class="link flex items-center justify-between">
+          <div class="flex items-center mb-4">
+            <input
+              id="default-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            />
+            <label
+              for="default-checkbox"
+              class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Remember me</label
+            >
+          </div>
+          <div class="p-0 mb-4 underline">
+            <a href="">Forgot password?</a>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <button
+            type="button"
+            class="text-white bg-red-600 hover:bg-red-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-36 sm:px-20 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Login
+          </button>
+        </div>
+
+        <div class="mt-2 text-md font-bold mb-4">
+          <p class="text-center">i'm not Robert</p>
+        </div>
+
+        <div class="flex justify-between mb-4">
+          <button
+            type="button"
+            class="text-white bg-sky-950 hover:bg-sky-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-14 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Login
+          </button>
+
+          <button
+            type="button"
+            class="text-red-600 hover:text-white border border-red-600 hover:bg-red-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-14 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
